@@ -1,0 +1,46 @@
+{
+  "updated_at": null,
+  "source": "Startdaten aus dem bisherigen Prototyp; automatischer Abruf noch nicht ausgeführt",
+  "events": [
+    {
+      "name": "Öffentliche Altstadtführung",
+      "date": "2026-10-28T17:00:00",
+      "dateLabel": "28.10. · 17:00",
+      "addr": "Pirna · Details im offiziellen Kalender",
+      "desc": "Gespeicherter Beispieltermin, noch nicht automatisch abgeglichen",
+      "url": "https://www.pirna.de/pirna-erleben/veranstaltungen/veranstaltungskalender/"
+    },
+    {
+      "name": "Pirna im Gespräch – Können WIR Reform?",
+      "date": "2026-10-30T19:00:00",
+      "dateLabel": "30.10. · 19:00",
+      "addr": "Pirna · Details im offiziellen Kalender",
+      "desc": "Gespeicherter Beispieltermin, noch nicht automatisch abgeglichen",
+      "url": "https://www.pirna.de/pirna-erleben/veranstaltungen/veranstaltungskalender/"
+    },
+    {
+      "name": "Öffentliche Sonderführung – Verborgenes in Pirna",
+      "date": "2026-10-31T14:00:00",
+      "dateLabel": "31.10. · 14:00",
+      "addr": "Pirna · Details im offiziellen Kalender",
+      "desc": "Gespeicherter Beispieltermin, noch nicht automatisch abgeglichen",
+      "url": "https://www.pirna.de/pirna-erleben/veranstaltungen/veranstaltungskalender/"
+    },
+    {
+      "name": "Halloween Special",
+      "date": "2026-10-31T20:00:00",
+      "dateLabel": "31.10. · 20:00",
+      "addr": "Pirna · Details im offiziellen Kalender",
+      "desc": "Gespeicherter Beispieltermin, noch nicht automatisch abgeglichen",
+      "url": "https://www.pirna.de/pirna-erleben/veranstaltungen/veranstaltungskalender/"
+    },
+    {
+      "name": "Musik im Fluss der Jahrhunderte",
+      "date": "2026-11-01T15:00:00",
+      "dateLabel": "01.11. · 15:00",
+      "addr": "Pirna · Details im offiziellen Kalender",
+      "desc": "Gespeicherter Beispieltermin, noch nicht automatisch abgeglichen",
+      "url": "https://www.pirna.de/pirna-erleben/veranstaltungen/veranstaltungskalender/"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+PIRNASMART – IPAD-APP MIT AUTOMATISCHEN VERANSTALTUNGEN
+
+Die Oberfläche ist dieselbe wie im bestätigten PirnaSmart-Wireframe.
+Automatisch aktualisierte Termine erfordern einmalig eine Online-Bereitstellung.
+
+WICHTIG: Die Aktualisierung ist vorbereitet, aber noch NICHT live geschaltet.
+Der Import läuft erst nach der Einrichtung auf GitHub und hängt vom HTML-Aufbau der Stadtseite ab.
+Wenn sich dieser ändert, bleiben die zuletzt gespeicherten Termine erhalten.
+
+EINRICHTUNG (mit Computer einfacher):
+1. Erstelle auf https://github.com ein neues öffentliches Repository, z. B. pirnasmart.
+2. Lade den INHALT dieses Ordners hoch (inkl. .github/workflows/events.yml), Branch main.
+   Hinweis: Versteckte .github-Ordner können in ZIP-Apps unsichtbar sein.
+3. Öffne im Repository Settings -> Pages -> Build and deployment -> Source: GitHub Actions.
+4. Öffne Actions -> PirnaSmart – Veranstaltungen aktualisieren und App bereitstellen -> Run workflow.
+5. Warte auf einen erfolgreichen Lauf. Unter Settings -> Pages steht deine App-Adresse.
+   Falls GitHub Actions keine Schreibrechte hat: Settings -> Actions -> General -> Workflow permissions -> Read and write permissions.
+6. Öffne die App-Adresse auf dem iPad in SAFARI.
+7. Tippe auf Teilen (Quadrat mit Pfeil) -> Zum Home-Bildschirm -> Hinzufügen.
+8. Nun liegt PirnaSmart wie eine App auf dem Home-Bildschirm.
+
+AKTUALISIERUNG:
+- GitHub Actions prüft alle 30 Minuten (mit möglichen Verzögerungen) den offiziellen Kalender.
+- Die App lädt events.json beim Öffnen und alle 30 Minuten im Vordergrund.
+- Wenn kein Internet verfügbar ist, bleibt der letzte gespeicherte Stand sichtbar.
+- Der Live-Abruf ist abhängig davon, ob die Stadt ihre Seitenstruktur beibehält und Zugriffe zulässt.
+- Keine echten Live-Parkplatzbelegungen; diese sind weiterhin DEMO-Werte.
+- Kartenkacheln benötigen Internet, sofern nicht bereits zwischengespeichert.
+
+DATENQUELLE: https://www.pirna.de/pirna-erleben/veranstaltungen/veranstaltungskalender/
+Dies ist ein unabhängiger Testprototyp, keine offizielle App der Stadt Pirna.
